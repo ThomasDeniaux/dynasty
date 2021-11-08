@@ -21,6 +21,12 @@ public class Test {
 	
 	pepin.getFemme();
 	
+	Homme charlemagne = new Homme("Charlemagne", "");
+	
+	berthe.enfanter(charlemagne, 743);
+	
+	charlemagne.getPere();
+	
 	}
 
 }

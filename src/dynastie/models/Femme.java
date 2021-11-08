@@ -17,6 +17,7 @@ public class Femme extends Personnage {
 	public void enfanter(Personnage enfant, int date) {
 		enfant.naitre(date);
 		enfants.add(enfant);
+		enfant.pere(mari);
 		mari.getEnfants().add(enfant);
 		enfant.setDynastie(dynastie);
 	}

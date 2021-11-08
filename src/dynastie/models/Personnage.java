@@ -22,6 +22,9 @@ public class Personnage {
 		return surnom;
 	}
 
+	public String getPere() {
+		return this.pere.getNom();
+	}
 	public void setSurnom(String surnom) {
 		this.surnom = surnom;
 	}
@@ -54,6 +57,10 @@ public class Personnage {
 
 	public List<Personnage> getEnfants() {
 		return enfants;
+	}
+	
+	public void pere(Homme pere) {
+		this.pere = pere;
 	}
 
 }
