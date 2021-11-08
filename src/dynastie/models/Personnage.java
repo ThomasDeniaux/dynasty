@@ -10,6 +10,22 @@ public class Personnage {
 	protected Femme mere;
 
 	private String nom;
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getSurnom() {
+		return surnom;
+	}
+
+	public void setSurnom(String surnom) {
+		this.surnom = surnom;
+	}
+
 	private String surnom;
 	private int naissance;
 	private int deces;
