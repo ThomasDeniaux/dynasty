@@ -18,5 +18,11 @@ public class Homme extends Personnage {
 		this.epouse = femme;
 		femme.setDynastie(dynastie);
 	}
+	
+	public void getFemme() {
+		
+		System.out.println(this.getNom() + " a pour épouse " + this.epouse.getNom());
+		
+	}
 
 }

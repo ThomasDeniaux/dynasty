@@ -12,6 +12,14 @@ public class Test {
 	
 	System.out.println(pepin.getNom());
 	
+	pepin.naitre(715);
+	pepin.mourir(768);
+	
+	Femme berthe = new Femme("Berthe", "au Grand Pied");
+	
+	pepin.epouser(berthe);
+	
+	pepin.getFemme();
 	
 	}
 
