@@ -17,6 +17,7 @@ public class Homme extends Personnage {
 	public void epouser(Femme femme) {
 		this.epouse = femme;
 		femme.setDynastie(dynastie);
+		femme.setMari(this);
 	}
 	
 	public void getFemme() {

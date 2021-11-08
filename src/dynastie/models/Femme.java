@@ -22,4 +22,12 @@ public class Femme extends Personnage {
 		enfant.setDynastie(dynastie);
 	}
 
+	public Homme getMari() {
+		return mari;
+	}
+
+	public void setMari(Homme mari) {
+		this.mari = mari;
+	}
+
 }
